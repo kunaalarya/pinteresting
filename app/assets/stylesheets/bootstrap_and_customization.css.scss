@@ -1,7 +1,21 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
 $body-bg: #3498db;
 $navbar-default-bg: #2980b9;
+$navbar-height: 	45px;
+$font-family: 'Lato', sans-serif;
 $navbar-default-link-color: white;
 $brand-primary: #3498db;
 $jumbotron-bg: #ecf0f1;
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
 
 @import "bootstrap";
