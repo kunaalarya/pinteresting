@@ -15,6 +15,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 4.0.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '< 2.0'
+gem 'nokogiri'
+gem 'uuidtools'
 
 group :development, :test do
   gem 'sqlite3'
